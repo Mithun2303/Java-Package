@@ -1,15 +1,15 @@
 const { default: axios } = require("axios");
 const cheerio = require("cheerio");
 
-const scrapy = (movie_name) => {
+const scrapy = async (movie_name) => {
 
 const url = `https://www.rottentomatoes.com/m/${movie_name}`;
-
-(async () => {
-    axios.get(url).then(async (res) => {
+let obj = {};
+    obj["name"]=movie_name;
+    const res = await axios.get(url);
         const respons = await cheerio.load(res.data);
-        let obj = {};
-
+        obj["title"] = respons('h1.title').html();
+        console.log(obj["title"]);
         obj["synopsis"] = respons('p[data-qa="movie-info-synopsis"]').text().trim();
         const topics = respons('b.info-item-label');
         const values = respons('span[data-qa="movie-info-item-value"]');
@@ -59,11 +59,9 @@ const url = `https://www.rottentomatoes.com/m/${movie_name}`;
         })
         obj["other-images"] = s;
 
-        console.log(obj);
-        return obj;
-    })
-}
-)();
+        // console.log(obj);
+    
+    return obj;
 }
 
 

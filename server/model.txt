@@ -1,0 +1,145 @@
+{
+  ""name"": "vikram",
+  "title": "Vikram",
+  "synopsis": "A special agent investigates a murder committed by a masked group of serial killers. However, a tangled maze of clues soon leads him to the drug kingpin of Chennai.",
+  "Genre:": "Mystery & thriller, Action",
+  "Original Language:": "Hindi",
+  "Director:": "Lokesh Kanagaraj",
+  "Producer:": "Kamal Hassan, R. Mahendran",
+  "Writer:": "Lokesh Kanagaraj",
+  "Release Date (Theaters):": "Jun 3, 2022 wide",
+  "Runtime:": "2h 26m",
+  "Production Co:": "Raajkamal Films International",
+  "cast-crew": [
+    {
+      "img": "https://resizing.flixster.com/YOaH7v0qDXelNhiZNZYA9wkD5NU=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/170523_v9_ba.jpg",
+      "name": "Kamal Hassan",
+      "as": ""
+    },
+    {
+      "img": "https://resizing.flixster.com/D_XZdVSogujfR4qxNam4BYqsmCw=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/680744_v9_aa.jpg",
+      "name": "Vijay Sethupathi",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Fahadh Faasil",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Gayathrie",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Antony Varghese",
+      "as": ""
+    },
+    {
+      "img": "https://resizing.flixster.com/aTg2vAfD6LvdSp-wucSfaV66cXA=/100x120/v2/https://resizing.flixster.com/tRjI4igo8kUtR1mB7gm1Zh8t5sc=/ems.cHJkLWVtcy1hc3NldHMvY2VsZWJyaXRpZXMvZjQxYWY2MWQtYThhMy00MmJmLWE1YjctYTJiODliNmNhMDNlLmpwZw==",
+      "name": "Arjun Das",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Chemban Vinod Jose",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Shivani Narayanan",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Kalidas Jayaram",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Maheshwari",
+      "as": ""
+    },
+    {
+      "img": "https://resizing.flixster.com/t2hoIgvDML6Tvqhg-XKKDOF8mGM=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/678058_v9_aa.jpg",
+      "name": "Gayathri",
+      "as": ""
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Narain",
+      "as": "Bejoy"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Lokesh Kanagaraj",
+      "as": "Director"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Lokesh Kanagaraj",
+      "as": "Screenwriter"
+    },
+    {
+      "img": "https://resizing.flixster.com/YOaH7v0qDXelNhiZNZYA9wkD5NU=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/170523_v9_ba.jpg",
+      "name": "Kamal Hassan",
+      "as": "Producer"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Disney",
+      "as": "Executive Producer"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Girish Gangadharan",
+      "as": "Cinematographer"
+    },
+    {
+      "img": "https://resizing.flixster.com/U4Y3FWqOHs3yA37pIkD1fBjE_Bc=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/1291534_v9_aa.jpg",
+      "name": "Philomin Raj",
+      "as": "Film Editing"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Anirudh Ravichander",
+      "as": "Original Music"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Satheesh Kumar",
+      "as": "Art Director"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "Pallavi Singh",
+      "as": "Costume Design"
+    },
+    {
+      "img": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg",
+      "name": "R. Mahendran",
+      "as": "Producer"
+    }
+  ],
+  "where-to-watch": [
+    {
+      hulu: "https://www.kmtrak.com/SM94M2/3HWS9F7/?uid=233&cmp=rt_where_to_watch"
+    }
+  ],
+  "thumbnail": "https://resizing.flixster.com/4Oee-oUKbZt7LUB77BjNmmuWjVE=/206x305/v2/https://resizing.flixster.com/N9oVCGW5d7BKOqmStmpCJsQKijI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzhiMTVmMGVjLTNlOTItNDdmNy04YzRjLTFkY2E5NGZkZWFhZi5qcGc=",
+  "other-images": [
+    "https://resizing.flixster.com/ZBD_pYBmyea9ExepFUMpL_O4TpY=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_v_h9_aa.jpg",
+    "https://resizing.flixster.com/umRbzihry7jQHkn9iLs6wZFHBIY=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_v_v10_aa.jpg",
+    "https://resizing.flixster.com/WazIWhlhF64dmCgD7sd-C592sBY=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_v_h10_aa.jpg",
+    "https://resizing.flixster.com/Rml6jiDIBXDKYhTcUHKeXkQurL0=//v2/https://resizing.flixster.com/N9oVCGW5d7BKOqmStmpCJsQKijI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzhiMTVmMGVjLTNlOTItNDdmNy04YzRjLTFkY2E5NGZkZWFhZi5qcGc=",
+    "https://resizing.flixster.com/4BRPn4MZCz5uinMFz5iaIBqiymc=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_p_v13_aa.jpg",
+    "https://resizing.flixster.com/5Kbl1LaKWivWoZwBc07updSkb3o=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_k_h9_aa.jpg",
+    "https://resizing.flixster.com/nXgqp9xH7dGTO4XzhgiqzkNjpp8=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_k_v13_aa.jpg",
+    "https://resizing.flixster.com/miXSxMGmX-igVwJ9stn6EIxPqh0=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_k_h8_aa.jpg",
+    "https://resizing.flixster.com/VvoJU8rb0tvQyRIMnPmJ8DcdWYI=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_i_h9_aa.jpg",
+    "https://resizing.flixster.com/nBsawxzdy6r97MIet9EDdB0LD5k=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_i_v9_aa.jpg",
+    "https://resizing.flixster.com/FtfKlpM0WUkCREPFt0is76USBVE=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_i_v8_aa.jpg",
+    "https://resizing.flixster.com/GCs67QPGIVMqUJFHpGFZyyKdR8I=//v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22145876_i_h10_aa.jpg"
+  ]
+}
