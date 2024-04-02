@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path='/' Component={LandingPage}/>
         <Route path='/login' Component={Login}/>
-        <Route path='/:movie_name' Component={Movie}/>
+        <Route path='/m/:movie_name' Component={Movie}/>
       </Routes>
     </BrowserRouter>
   )

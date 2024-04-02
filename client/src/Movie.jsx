@@ -5,7 +5,7 @@ export const Movie = () => {
     const { movie_name } = useParams();
     const [movieData, setMovieData] = useState(null);
     useEffect(() => {
-        axios.get(`http://127.0.0.1:8000/api/${movie_name}`).then((res) => {
+        axios.get(`http://127.0.0.1:8000/api/movie/${movie_name}`).then((res) => {
             console.log(res);
             setMovieData(res.data);
         })
