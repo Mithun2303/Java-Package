@@ -30,3 +30,4 @@ app.get("/api/:movie_name",async (req,res)=>{
     console.log(resp);
     res.json(resp);
 })
+

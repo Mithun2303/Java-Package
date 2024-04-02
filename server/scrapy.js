@@ -3,10 +3,11 @@ const cheerio = require("cheerio");
 
 const scrapy = async (movie_name) => {
 
-const url = `https://www.rottentomatoes.com/m/${movie_name}`;
-let obj = {};
-    obj["name"]=movie_name;
-    const res = await axios.get(url);
+    const url = `https://www.rottentomatoes.com/m/${movie_name}`;
+    let obj = {};
+    obj["name"] = movie_name;
+    try {
+        const res = await axios.get(url);
         const respons = await cheerio.load(res.data);
         obj["title"] = respons('h1.title').html();
         console.log(obj["title"]);
@@ -53,15 +54,19 @@ let obj = {};
             // const link = respons(el).prop("href");
             // URL string
             // Regex pattern to match the second URL
-            if(media!=undefined){
-                s.push(media.replace("300x300",""));
+            if (media != undefined) {
+                s.push(media.replace("300x300", ""));
             }
         })
         obj["other-images"] = s;
 
         // console.log(obj);
-    
-    return obj;
+
+        return obj;
+    } catch (error) {
+
+            return { "message": "errror" }
+    }
 }
 
 
