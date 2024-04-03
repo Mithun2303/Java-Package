@@ -16,7 +16,7 @@ const scrapy = async (movie_name) => {
         const values = respons('span[data-qa="movie-info-item-value"]');
         topics.each((index, element) => {
             // Get the text content of each info item
-            const info = respons(element).text().trim();
+            const info = respons(element).text().trim().replace(":","");
             obj[info] = respons(values[index]).text().trim().replace(/\s+/g, ' ');
             // console.log(info, value);
         });
@@ -33,16 +33,16 @@ const scrapy = async (movie_name) => {
             ls.push(s);
         });
         obj["cast-crew"] = ls;
-        ls = [];
+        let ls1 = [];
         const where_to_watch = respons('where-to-watch-meta');
         where_to_watch.each((index, el) => {
             let s = {};
-            const media = respons(el).prop("affiliate");
-            const link = respons(el).prop("href");
-            s[media] = link;
-            ls.push(s);
+            s["media"] = respons(el).prop("affiliate");
+            s["link"] = respons(el).prop("href");
+            ls1.push(s);
+            console.log(s);
         })
-        obj["where-to-watch"] = ls;
+        obj["where-to-watch"] = ls1;
         const thumbnail = respons('div.thumbnail-scoreboard-wrap').children("div").children("tile-dynamic").children("rt-img").prop("src");
         // console.log(thumbnail);
         obj["thumbnail"] = thumbnail;
