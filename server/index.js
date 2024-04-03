@@ -28,10 +28,10 @@ app.get("/api/movie/:movie_name", async (req, res) => {
     const movie_name = req.params.movie_name;
     const data = await Movie.find({ name: movie_name });
     console.log(data.length);
-    if(data.length!=0){
+    if (data.length != 0) {
         res.json(data[0]);
     }
-    else{
+    else {
         const resp = await scrapy(movie_name);
         console.log(resp);
         const movie = new Movie(resp);
@@ -47,4 +47,12 @@ app.get("/api/search/:search_key", async (req, res) => {
     const resp = await search(search_key);
     console.log(resp)
     res.json(resp);
+})
+
+app.post("/api/review", async (req, res) => {
+    const { name, review } = req.body;
+    console.log(name, review);
+    let resp = await Movie.findOneAndUpdate({ name: name }, { $push: { reviews: review } });
+    let r = await Movie.findOne({name:name})
+    res.json(r)
 })

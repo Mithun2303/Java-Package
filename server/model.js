@@ -27,6 +27,7 @@ const movieSchema = new mongoose.Schema({
     media: String,
     link: String
   }],
+  "reviews":[String],
   thumbnail: String,
   "other-images": [String]
 });

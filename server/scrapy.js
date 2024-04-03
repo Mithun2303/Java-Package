@@ -59,7 +59,7 @@ const scrapy = async (movie_name) => {
             }
         })
         obj["other-images"] = s;
-
+        obj["reviews"] = [];
         // console.log(obj);
 
         return obj;
