@@ -1,11 +1,11 @@
-# Movie Review
+# 
 Serves as a vast repository of information about movies, television shows, actors, directors, producers, and other industry professionals. It provides details such as cast and crew, plot summaries, release dates, trivia, and user ratings for a wide range of films and TV series.
 Film enthusiasts, industry professionals, journalists, and casual viewers alike rely on IMDb for information about movies. It serves as a go-to source for researching films, discovering new releases, and exploring the filmographies of actors and filmmakers.
 
 ### Getting Started
 ```
-git clone https://github.com/Mithun2303/Movie-Review.git
-cd Movie-Review
+git clone https://github.com/Mithun2303/Roll-Camera-Action.git
+cd Roll-Camera-Action
 ```
 
 ### To start front-end server
